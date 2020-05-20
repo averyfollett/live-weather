@@ -1,7 +1,7 @@
 # live-weather
 Open source code for a DIY live weather display using JavaScript and JQuery
 
-To see a working example, go to [liveweather.atwebpages.com](http://liveweather.atwebpages.com)
+To see a working example, go to [my website](http://www.averyfollett.com/liveweather/index.html)
 
 If you would like to use this code for your own project, go ahead, but please use your own API key and replace it in the weather.js and forecast.js files.
 
