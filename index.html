@@ -1,5 +1,5 @@
 <!––written by Avery Follett-->
-<!––last updated November 11, 2019-->
+<!––last updated May 20, 2020-->
 <!doctype html>
 <html>
 <head>
@@ -10,6 +10,7 @@
 <script src="time.js"></script>
 <script src="weather.js"></script>
 <script src="background.js"></script>
+<script src="forecast.js"></script>
 <script>
 	setTimeout(function(){
    window.location.reload(1);
@@ -19,14 +20,12 @@
 </head>
 
 <body onload="startTime(), changeImage()">
-	<div id="txt"></div>
-	
+	<div id="time"></div>
 	<div id="currentTemp"></div>
 	<br>
+	<div id="humidity"></div>
 	<div id="wind_mph"></div>
-	
 	<div id="forecast"></div>
-	
 	<div id="image_credit">
 		Image Credit &copy;2012 CAMNET
 	</div>

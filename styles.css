@@ -1,4 +1,5 @@
-/* CSS Document */
+/* written by Avery Follett */
+/* last updated May 20, 2020 */
 
 html {
 	background-color: black;
@@ -14,13 +15,19 @@ body {
 	padding: 3%;
 }
 
-#txt {
+#time {
 	display: inline;
 	text-shadow: 2px 2px 30px black;
 }
 
 #currentTemp {
 	float: right;
+	text-shadow: 2px 2px 30px black;
+}
+
+#humidity {
+	font-size: 30pt;
+	float: left;
 	text-shadow: 2px 2px 30px black;
 }
 

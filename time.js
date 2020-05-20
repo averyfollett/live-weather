@@ -1,5 +1,5 @@
 // written by Avery Follett
-// last updated November 11, 2019
+// last updated May 20, 2020
 function startTime() {
 	'use strict';
     var today = new Date();
@@ -9,7 +9,7 @@ function startTime() {
   	h = h ? h : 12; // the hour '0' should be '12'
     var m = today.getMinutes();
     m = checkTime(m);
-    document.getElementById('txt').innerHTML =
+    document.getElementById('time').innerHTML =
     h + ":" + m + " " + ampm;
     var t = setTimeout(startTime, 500);
 }
