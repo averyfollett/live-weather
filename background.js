@@ -5,7 +5,6 @@ function changeImage() {
 		'http://images.intellicast.com/WxImages/RadarLoop/bml_None_anim.gif',
 		'http://hazecam.net/images/large/burlington_right.jpg'
 	);
-	console.log("hello");
 	document.documentElement.style.backgroundImage = 'url("' + BackgroundImg[0] + '")';
 
 	var i = 1;
@@ -21,5 +20,5 @@ function changeImage() {
 		}
 	}, 20000);
 
-	console.log("image changed");
+	console.log("bg changed");
 }
