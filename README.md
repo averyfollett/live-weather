@@ -10,3 +10,4 @@ Here is documentation on the API I used for [Current](https://www.weatherbit.io/
 This will be important for you to swap out my location and API key for yours
 
 To change the background images, just edit the URLs in the background.js file
+The 1.1.0 version uses a live YouTube video as one of the backgrounds. This can be changed in index.html
