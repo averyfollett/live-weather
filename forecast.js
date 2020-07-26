@@ -1,5 +1,5 @@
 // written by Avery Follett
-// last updated May 20, 2020
+// last updated July 26, 2020
 
 jQuery(document).ready(function($) {
 	'use strict';
@@ -8,7 +8,7 @@ jQuery(document).ready(function($) {
 	{
 		"async": true,
 		"crossDomain": true,
-		"url": "https://api.weatherbit.io/v2.0/forecast/daily?city=Burlington,VT&units=I&days=2&key=804034dd9b7242569ba2fe68ead009a1",
+		"url": "https://api.weatherbit.io/v2.0/forecast/daily?city=Colchester,VT&units=I&days=2&key=",
 		"method": "GET"
 	}
 

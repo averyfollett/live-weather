@@ -1,25 +1,30 @@
-<!––written by Avery Follett-->
-<!––last updated May 20, 2020-->
+﻿<!––written by Avery Follett-->
+<!––last updated July 26, 2020-->
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<link rel="stylesheet" href="styles.css" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-<script src="time.js"></script>
-<script src="weather.js"></script>
-<script src="background.js"></script>
-<script src="forecast.js"></script>
-<script>
-	setTimeout(function(){
-   window.location.reload(1);
-}, 1800000);
-</script>
-<title>LiveWeather</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script src="time.js"></script>
+	<script src="weather.js"></script>
+	<script src="background.js"></script>
+	<script src="forecast.js"></script>
+	<script>
+		setTimeout(function () {
+			window.location.reload(1);
+		}, 1800000);
+	</script>
+	<title>LiveWeather</title>
 </head>
 
 <body onload="startTime(), changeImage()">
+	<div id="video-background">
+		<div id="video-foreground">
+			<iframe src="https://www.youtube.com/embed/t6-I7Kzha-g?controls=0&showinfo=0&rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
 	<div id="time"></div>
 	<div id="currentTemp"></div>
 	<br>
@@ -27,7 +32,6 @@
 	<div id="wind_mph"></div>
 	<div id="forecast"></div>
 	<div id="image_credit">
-		Image Credit &copy;2012 CAMNET
 	</div>
 </body>
 </html>

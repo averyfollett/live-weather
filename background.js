@@ -1,24 +1,24 @@
+// written by Avery Follett
+// last updated July 26, 2020
+
 function changeImage() {
 	'use strict';
 	var BackgroundImg = new Array(
-		'http://hazecam.net/images/large/burlington_right.jpg',
-		'http://images.intellicast.com/WxImages/RadarLoop/bml_None_anim.gif',
-		'http://hazecam.net/images/large/burlington_right.jpg'
+		'http://images.intellicast.com/WxImages/RadarLoop/bml_None_anim.gif'
 	);
 	document.documentElement.style.backgroundImage = 'url("' + BackgroundImg[0] + '")';
+
+	var x = document.getElementById('video-background');
 
 	var i = 1;
 	setInterval(function() {
 		// method to be executed;
-		if (i < 3) { 
-			document.documentElement.style.backgroundImage = 'url("' + BackgroundImg[i] + '")';
-			console.log(i);
+		if (i < 2) { 
 			i++;
+			x.style.display = "none";
 		} else {
 			i = 0;
-			document.documentElement.style.backgroundImage = 'url("' + BackgroundImg[i] + '")';
+			x.style.display = "block";
 		}
-	}, 20000);
-
-	console.log("bg changed");
+	}, 30000);
 }
