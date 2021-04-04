@@ -4,7 +4,7 @@
 function changeImage() {
 	'use strict';
 	var BackgroundImg = new Array(
-		'http://images.intellicast.com/WxImages/RadarLoop/bml_None_anim.gif'
+		'https://s.w-x.co/staticmaps/wu/wxtype/county_loc/bml/animate.png'
 	);
 	document.documentElement.style.backgroundImage = 'url("' + BackgroundImg[0] + '")';
 
