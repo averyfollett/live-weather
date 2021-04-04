@@ -11,7 +11,7 @@ function startTime() {
     m = checkTime(m);
     document.getElementById('time').innerHTML =
     h + ":" + m + " " + ampm;
-    var t = setTimeout(startTime, 500);
+    var t = setTimeout(startTime, 10000);
 }
 function checkTime(i) {
 	'use strict';
