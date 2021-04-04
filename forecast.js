@@ -13,10 +13,10 @@ jQuery(document).ready(function($) {
 	}
 
 	$.ajax(settings).done(function (parsed_json) {
-		var high_low = "<b>High: </b>" + Math.round(parsed_json['data'][0]['high_temp']) + "F <br>" + 
-			"<b>Low: </b>" + Math.round(parsed_json['data'][0]['low_temp']) + "F";
+		var high_low = "<b>High: </b>" + Math.round(parsed_json['data'][0]['high_temp']) + "&#176;F <br>" + 
+			"<b>Low: </b>" + Math.round(parsed_json['data'][0]['low_temp']) + "&#176;F";
 		var forecast_today = "<b>Today</b>: " + parsed_json['data'][0]['weather']['description'];
-		var forecast_tomorrow = "<b>Tomorrow</b>: " + parsed_json['data'][1]['weather']['description'] + ". High " + Math.round(parsed_json['data'][1]['high_temp']) + ".";
+		var forecast_tomorrow = "<b>Tomorrow</b>: " + parsed_json['data'][1]['weather']['description'] + ". High " + Math.round(parsed_json['data'][1]['high_temp']) + "&#176;F.";
 		var state = "high_low";
 		document.getElementById('forecast').innerHTML = high_low;
 		setInterval(function() {

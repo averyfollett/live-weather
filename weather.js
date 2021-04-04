@@ -16,9 +16,9 @@ jQuery(document).ready(function($) {
 		var temp_f = parsed_json['data'][0]['temp'];
 		var feelslike_f = parsed_json['data'][0]['app_temp'];
 		if (temp_f == feelslike_f){
-			document.getElementById('currentTemp').innerHTML = temp_f + "F";
+			document.getElementById('currentTemp').innerHTML = temp_f + "&#176;F";
 		} else {
-			document.getElementById('currentTemp').innerHTML = temp_f + "F (" + feelslike_f + "F)";
+			document.getElementById('currentTemp').innerHTML = temp_f + "&#176;F (" + feelslike_f + "&#176;F)";
 		}
 		var humidity = parsed_json['data'][0]['rh'];
 		document.getElementById('humidity').innerHTML = humidity + "% humidity";
