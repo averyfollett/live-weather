@@ -1,5 +1,5 @@
 // written by Avery Follett
-// last updated May 20, 2020
+// last updated April 4, 2021
 function startTime() {
 	'use strict';
     var today = new Date();

@@ -1,5 +1,5 @@
 // written by Avery Follett
-// last updated July 26, 2020
+// last updated April 4, 2021
 
 jQuery(document).ready(function($) {
 	'use strict';
@@ -8,7 +8,7 @@ jQuery(document).ready(function($) {
 	{
 		"async": true,
 		"crossDomain": true,
-		"url": "https://api.weatherbit.io/v2.0/forecast/daily?city=Colchester,VT&units=I&days=2&key=",
+		"url": "https://api.weatherbit.io/v2.0/forecast/daily?city=Colchester,VT&units=I&days=2&key=fdc8c4abf2ab4f678244e74dc1469548",
 		"method": "GET"
 	}
 
